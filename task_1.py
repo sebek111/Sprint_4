@@ -86,4 +86,4 @@ class TestGetBooksGenre:
         collector.add_new_book("Гарри Поттер")
         collector.set_book_genre("Гарри Поттер", "Фантастика")
         result = collector.get_books_genre()
-        assert result == {"Гарри Поттер": "Фантастика"}
+        assert result == {"Гарри Поттер": "Фантастика"} 
